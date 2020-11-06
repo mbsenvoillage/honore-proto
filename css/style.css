@@ -1,0 +1,103 @@
+
+
+/** FONT IMPORTS **/
+
+@font-face {
+    font-family: RalewayReg;
+    src: url("fonts/Raleway-Regular.ttf");
+}
+
+
+/** Header HP **/
+
+.navbar li a.nav-link {
+    font-family: RalewayReg, sans-serif;
+    transform: scale(.9, .8);
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    color: black;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-collapse {
+    justify-content: space-around;
+}
+
+.home-page-header-wrapper {
+    position: relative;
+    padding-bottom: 0;
+}
+
+.home-page-header-wrapper:before {
+    content: "";
+    background:transparent linear-gradient(180deg, rgba(103, 174, 174, 1) 0%, rgba( 255 , 255 , 255 , 0.000 ) 100%) 0% 0% no-repeat padding-box;
+    border-bottom: 0.1em #0F0F0F solid;
+    opacity: 0.5;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.top-page-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #69AFAF;
+    font-family: RalewayReg, sans-serif;
+    color: #ffffff;
+    padding: 0.1em;
+    position: relative;
+}
+
+.top-page-banner p {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.2em;
+}
+
+#logo-honore {
+    margin: auto;
+    width: 30vh;
+}
+.logo-wrapper {
+    display: flex;
+    overflow: visible;
+    height: 18vh;
+}
+
+.icons-container {
+    margin-right: 2em;
+}
+
+.icons-container .menu-icon {
+    width: 1.5em;
+    margin-left: 1em;
+    margin-top: 1.2em;
+}
+
+.menu-icon.bar {
+    width: 1em;
+}
+
+@media only screen and (max-width) {
+
+    .logo-wrapper {
+        height: 10vh;
+    }
+
+}
+
+
+
+
+
