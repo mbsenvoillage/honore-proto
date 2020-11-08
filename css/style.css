@@ -1,0 +1,184 @@
+
+
+/** FONT IMPORTS **/
+
+@font-face {
+    font-family: RalewayReg;
+    src: url("fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+    font-family: PrataReg;
+    src: url("fonts/Prata-Regular.ttf");
+}
+
+
+/** Header HP **/
+
+.navbar li a.nav-link {
+    font-family: RalewayReg, sans-serif;
+    transform: scale(.9, .8);
+    font-size: 0.9em;
+    letter-spacing: 0.1em;
+    color: black !important;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-collapse {
+    justify-content: space-around;
+}
+
+.dropped-down {
+    background:transparent linear-gradient(180deg, rgb(103, 174, 174) 0%, rgb( 255 , 255 , 255) 100%) 0% 0% no-repeat padding-box;
+    position: absolute;
+    z-index: 3;
+}
+
+.home-page-header-wrapper {
+    position: relative;
+    padding-bottom: 0;
+}
+
+.home-page-header-wrapper:before {
+    content: "";
+    background:transparent linear-gradient(180deg, rgba(103, 174, 174, 1) 0%, rgba( 255 , 255 , 255 , 0.000 ) 100%) 0% 0% no-repeat padding-box;
+    border-bottom: 0.1em #0F0F0F solid;
+    opacity: 0.5;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.top-page-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #69AFAF;
+    font-family: RalewayReg, sans-serif;
+    color: #ffffff;
+    padding: 0.1em;
+    position: relative;
+}
+
+.top-page-banner p {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.2em;
+}
+
+#logo-honore {
+    margin: auto;
+    width: 60%;
+}
+.logo-wrapper {
+    display: flex;
+
+}
+
+.icons-container {
+    margin-right: 2em;
+}
+
+.icons-container .menu-icon {
+    width: 2.5vw;
+    margin-left: 1em;
+    margin-top: 1.2em;
+}
+
+.menu-icon.bar {
+    width: 1em;
+}
+
+@media screen and (min-width: 576px) {
+    .icons-container .menu-icon {
+        margin-top: 0;
+    }
+
+    .icons-container {
+        margin-right: 0;
+    }
+
+    .icons-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navbar-wrapper {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #logo-honore {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    #logo-honore {
+        margin: auto;
+    }
+}
+
+
+/* JUMBOTRON HP*/
+
+.jumbotron {
+    padding-top: 0;
+    background-color: #FAF5F1;
+    padding-bottom: 0;
+}
+
+#jumbo-pencil {
+    width: 100%;
+}
+
+.jumbo-left-col {
+    display: flex;
+    align-items: center;
+}
+
+.jumbo-left-col .wrapper {
+    padding: 15% 15% 10% 15%;
+}
+
+
+.jumbo-left-col h2 {
+    font-family: PrataReg, serif;
+    font-size: 2rem;
+    width: 90%;
+}
+
+.jumbo-left-col p {
+    text-transform: uppercase;
+    font-family: RalewayReg, sans-serif;
+    font-size: 0.9rem;
+}
+
+.jumbo-left-col button {
+    color: #B3D6D6;
+    background-color: white;
+    font-family: RalewayReg, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    padding: 0.6em 1em;
+    border: 0.1em #B0D1CE solid;
+    border-radius: 0.2em;
+    transform: scale(.9, .8);
+}
+
+
+
+
+
