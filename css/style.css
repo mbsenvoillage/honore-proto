@@ -1,4 +1,4 @@
-
+@import "responsive.css";
 
 /** FONT IMPORTS **/
 
@@ -15,7 +15,7 @@
 
 /** Header HP **/
 
-.navbar li a.nav-link {
+nav.menu a.nav-link, nav.bottom-navbar a {
     font-family: RalewayReg, sans-serif;
     transform: scale(.9, .8);
     font-size: 0.9em;
@@ -25,18 +25,8 @@
     z-index: 2;
 }
 
-.navbar {
+nav {
     padding: 0;
-}
-
-.navbar-collapse {
-    justify-content: space-around;
-}
-
-.dropped-down {
-    background:transparent linear-gradient(180deg, rgb(103, 174, 174) 0%, rgb( 255 , 255 , 255) 100%) 0% 0% no-repeat padding-box;
-    position: absolute;
-    z-index: 3;
 }
 
 .home-page-header-wrapper {
@@ -85,49 +75,80 @@
 
 }
 
-.icons-container {
-    margin-right: 2em;
-}
-
-.icons-container .menu-icon {
+.navbar-icons-wrapper .menu-icon {
     width: 2.5vw;
     margin-left: 1em;
     margin-top: 1.2em;
 }
 
-.menu-icon.bar {
-    width: 1em;
+
+.navbar-header {
+    height: 130px;
 }
 
-@media screen and (min-width: 576px) {
-    .icons-container .menu-icon {
-        margin-top: 0;
-    }
-
-    .icons-container {
-        margin-right: 0;
-    }
-
-    .icons-wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .navbar-wrapper {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    #logo-honore {
-        margin: 0;
-    }
+.navbar-header.brand {
+    width: 160px;
+    padding-top: 15px;
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-@media screen and (min-width: 576px) {
-    #logo-honore {
-        margin: auto;
-    }
+.navbar-header.brand img {
+    width: 100%;
+}
+
+.navbar-left {
+    float: left;
+    margin-top: 35px;
+}
+
+header nav .header {
+    position: relative;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-icons-wrapper {
+    margin-top: 35px;
+
+}
+
+.navbar-icons-wrapper img {
+    width: 1.5rem;
+}
+
+.like-icon-wrapper, .basket-icon-wrapper, .user-icon-wrapper {
+    margin-left: 25px;
+    display: inline-block;
+}
+
+header {
+    border-bottom: 0.1em #0F0F0F solid;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background:transparent linear-gradient(180deg, rgba(103, 174, 174, 1) 0%, rgba( 255 , 255 , 255 , 0.000 ) 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.menu {
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -177,8 +198,6 @@
     border-radius: 0.2em;
     transform: scale(.9, .8);
 }
-
-
 
 
 
