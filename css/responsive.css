@@ -92,20 +92,7 @@
         display: none;
     }
 
-    .svg-icon {
-        width: 2em;
-    }
 
-    .svg-icon path,
-    .svg-icon polygon,
-    .svg-icon rect {
-        fill: #FFFFFF;
-    }
-
-    .svg-icon circle {
-        stroke: #4691f6;
-        stroke-width: 1;
-    }
 
 }
 

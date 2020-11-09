@@ -76,9 +76,7 @@ nav {
 }
 
 .navbar-icons-wrapper .menu-icon {
-    width: 2.5vw;
     margin-left: 1em;
-    margin-top: 1.2em;
 }
 
 
@@ -149,6 +147,21 @@ header {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.svg-icon {
+    width: 2em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: #FFFFFF;
+}
+
+.svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
 }
 
 
