@@ -143,3 +143,36 @@
         display: none;
     }
 }
+
+/* Jumbotron text size*/
+
+@media screen and (min-width: 1338px) {
+    .jumbo-left-col h2 {
+        font-size: 3.5rem;
+        max-width: 80%;
+    }
+
+    .jumbo-left-col p {
+        font-size: 1.5rem;
+        max-width: 70%;
+    }
+
+    .jumbo-left-col button {
+
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 1006px) {
+    .jumbo-left-col h2 {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+    .jumbo-left-col h2 {
+        font-size: 2rem;
+    }
+
+}
