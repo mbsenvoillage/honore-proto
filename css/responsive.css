@@ -208,6 +208,18 @@
         padding-right: 15px;
     }
 
+    .hidden-md-lg {
+        display: none;
+    }
+
+    .hidden-sm {
+        display: block;
+    }
+
+    .row.products {
+        margin-bottom: 40px;
+    }
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -226,5 +238,55 @@
 @media screen and (max-width: 1200px) {
     .carterie-wrapper, .album-wrapper {
         margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .hidden-md-lg .wrap {
+        padding: 40px;
+    }
+
+    .hidden-md-lg .wrap h3 {
+        font-size: 20px;
+
+    }
+
+    .hidden-md-lg .wrap p {
+        font-size: 12px;
+    }
+
+    .hidden-md-lg .wrap button {
+        font-size: 12px;
+        padding: 0.9em;
+    }
+
+
+
+}
+
+@media screen and (min-width: 414px) {
+    .hidden-md-lg .wrap {
+        padding: 20%;
+    }
+}
+
+@media screen and (max-width: 1009px) {
+    .hidden-sm {
+        display: none;
+    }
+
+    .slogan-planete {
+        margin: 0 auto;
+    }
+
+    .slogan-planete p {
+        font-size: 2.2rem;
+    }
+
+    .hidden-md-lg h3 {
+        font-family: PrataReg, serif;
+    }
+    .hidden-md-lg p {
+        font-family: RalewayReg, sans-serif;
     }
 }
