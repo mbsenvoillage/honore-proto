@@ -137,3 +137,9 @@
         width: 130px;
     }
 }
+
+@media screen and (max-width: 360px) {
+    .like-icon-wrapper {
+        display: none;
+    }
+}
