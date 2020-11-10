@@ -45,18 +45,6 @@
         text-align: center;
     }
 
-    .menu-bottom-wrapper {
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        display: flex;
-        height: 60px;
-        left: -100%;
-        z-index: 3;
-        transition: left .5s cubic-bezier(0,1,.5,1);
-        background-color: rgba(103, 174, 174, 1);
-    }
-
     .pull-sidebar {
         left: 0;
 
@@ -175,4 +163,68 @@
         font-size: 2rem;
     }
 
+}
+
+/*  Products & Credo */
+
+@media screen and (max-width: 580px) {
+
+    .carterie-wrapper .text-wrapper, .album-wrapper .text-wrapper {
+        z-index: 3;
+        padding: 0 0 0 16px;
+        width: 100%;
+    }
+
+    .text-wrapper h3 {
+        font-size: 24px !important;
+
+    }
+
+
+    .carterie-wrapper .text-wrapper p, .album-wrapper .text-wrapper p {
+        font-size: 10px;
+        margin-bottom: 0.6rem;
+
+    }
+
+     .carterie-wrapper button, .album-wrapper button {
+        font-size: 12px;
+         padding: 0.5rem;
+    }
+
+}
+
+@media screen and (min-width: 1010px) {
+    .products .col-md-12 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .jumbotron-fluid {
+        margin-bottom: 2rem;
+    }
+
+    .products .livre-col {
+        padding-right: 15px;
+    }
+
+}
+
+@media screen and (min-width: 1500px) {
+    .products .carterie-col {
+        padding-left: 105px;
+        padding-right: 20px;
+    }
+
+    .products .livre-col {
+        padding-left: 40px;
+        padding-right: 105px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .carterie-wrapper, .album-wrapper {
+        margin-bottom: 1rem;
+    }
 }
