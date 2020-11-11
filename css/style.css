@@ -424,7 +424,7 @@ button {
 
 /* HOMEPAGE PRODUCT PERSONALIZATION HOW TO */
 
-.product-personlization-howto .col-sm-12.col-md-6.col-lg-6.col-xl-2 {
+.product-personlization-howto .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-2 {
     display: flex;
     align-items: center;
 }
@@ -441,7 +441,7 @@ button {
     border: none;
 }
 
-.row.personalization-steps {
+.row.personalization-steps, .reassurance-list {
     text-align: center;
 }
 
@@ -450,12 +450,12 @@ button {
     margin: 0 auto;
 }
 
-.product-personlization-howto .col-sm-12.col-md-6.col-lg-6.col-xl-2, .product-personlization-howto .col-12 {
+.product-personlization-howto .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-2, .product-personlization-howto .col-12 {
     margin-top: 2%;
 
 }
 
-.product-personlization-howto .col-sm-12.col-md-6.col-lg-6.col-xl-2 {
+.product-personlization-howto .col-6.col-sm-6.col-md-6.col-lg-6.col-xl-2 {
     margin-bottom: 5%;
 
 }
@@ -471,7 +471,7 @@ button {
 }
 
 .row.personalization-steps .col-12 h3 {
-    font-size: 2rem;
+    font-size: 1.75rem;
 }
 
 .product-personlization-howto .card-body {
@@ -494,7 +494,8 @@ button {
 }
 
 .customer-ratings .row {
-    background-color: #FAF5F1
+    background-color: #FAF5F1;
+    padding-bottom: 40px;
 }
 
 /* HOMEPAGE PRODUCT CUSTOMER RATINGS */
@@ -514,4 +515,23 @@ button {
 
 .customer-ratings .card-body p:last-child {
     margin-top: 6%;
+}
+
+
+/* HOMEPAGE PRODUCT REASSURANCE */
+
+.reassurance .card-text {
+    text-transform: uppercase;
+}
+
+.reassurance .card-img-top {
+    width: 35%;
+}
+
+.reassurance {
+    margin-top: 3%;
+}
+
+.reassurance .col-12 h3 {
+    margin-bottom: 2%;
 }

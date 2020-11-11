@@ -338,6 +338,10 @@
         padding: 30px;
         margin-bottom: 5%;
     }
+
+    .reassurance .card-text {
+        font-size: 2.3vw;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -351,3 +355,8 @@
 }
 
 
+@media screen and (min-width: 992px){
+    .reassurance .card-img-top {
+        width: 30%;
+    }
+}
