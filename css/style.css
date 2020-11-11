@@ -535,3 +535,62 @@ button {
 .reassurance .col-12 h3 {
     margin-bottom: 2%;
 }
+
+/* FOOTER */
+
+footer, footer .card {
+    background-color: #FAF5F1;
+    font-family: RalewayBold, sans-serif;
+}
+
+footer .card-img-top {
+    width: 60%
+}
+
+footer .card-text img {
+    width: 12%;
+}
+
+footer ul {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+footer ul h4 {
+    text-transform: initial;
+    font-size: 1.5rem;
+}
+
+.copyright {
+    background:transparent linear-gradient(180deg, rgba(103, 174, 174, 0.7) 0%, rgba(103, 174, 174, 0.6) 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: RalewayReg, sans-serif;
+}
+
+.copyright p:last-child {
+    text-transform: uppercase;
+    font-family: RalewayBold, sans-serif;
+}
+
+footer .row {
+    padding-top: 4%;
+}
+
+footer .row .row {
+    padding-top: 0;
+}
+
+footer li {
+    letter-spacing: 0.1em;
+    transform: scale(.9, .8);
+    font-size: 0.9em;
+}
+
+footer .row .row .col-md-6:last-child ul, footer .row .row .col-12:last-child ul {
+    margin-top: 9%;
+}
+
+footer .card {
+    text-align: center;
+}
