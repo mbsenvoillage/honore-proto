@@ -123,6 +123,10 @@
     .navbar-header.brand {
         width: 130px;
     }
+
+    footer .row .row .col-md-6:last-child ul, footer .row .row .col-12:last-child ul {
+        margin-top: 0;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -341,6 +345,14 @@
 
     .reassurance .card-text {
         font-size: 2.3vw;
+    }
+
+    footer .card-img-top {
+        width: 30%;
+    }
+
+    footer .card-text img {
+        width: 6%;
     }
 }
 
