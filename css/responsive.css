@@ -62,7 +62,6 @@
     }
 
     .navbar-toggle {
-        height: 20px;
         border: none;
         background: none;
         cursor: pointer;
@@ -247,6 +246,19 @@
     .row.product-cards .col-12 h3 {
         font-size: 1.85rem;
     }
+
+    .row.personalization-steps .card-img-top {
+        width: 80%;
+    }
+
+
+    .row.personalization-steps .card-body {
+        margin-left: 0;
+    }
+
+    .row.personalization-steps .card-text {
+        font-size: 2vw;
+    }
 }
 
 @media screen and (max-width: 414px) {
@@ -284,6 +296,13 @@
     }
 }
 
+@media screen and (max-width: 1500px) {
+    .customer-ratings .card-text {
+        font-size: 1.2vw;
+    }
+
+}
+
 @media screen and (max-width: 1009px) {
     .hidden-sm {
         display: none;
@@ -305,4 +324,30 @@
     .hidden-md-lg p {
         font-family: RalewayReg, sans-serif;
     }
+
 }
+
+@media screen and (max-width: 992px) {
+    .customer-ratings .card-text {
+        font-size: 3vw;
+    }
+
+    .customer-ratings .card {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row.personalization-steps .col-sm-12 {
+        justify-content: center;
+    }
+
+    .row.personalization-steps .card-text {
+        font-size: 3vw;
+    }
+}
+
+
