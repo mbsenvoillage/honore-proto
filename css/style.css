@@ -398,7 +398,7 @@ button {
     color: #69AFAF;;
 }
 
-.row.product-cards {
+.row.product-cards, .customer-ratings .row {
     text-align: center;
 }
 
@@ -410,7 +410,7 @@ button {
     margin-top: 6%;
 }
 
-.row.product-cards .col-12 h3, .row.personalization-steps .col-12 h3 {
+.row.product-cards .col-12 h3, .row.personalization-steps .col-12 h3, .customer-ratings .col-12 h3 {
     font-family: RalewaySemiBold, sans-serif;
     font-size: 2rem;
 }
@@ -491,4 +491,27 @@ button {
 .card-body .card-text {
     margin: 0;
     font-size: 1vw;
+}
+
+.customer-ratings .row {
+    background-color: #FAF5F1
+}
+
+/* HOMEPAGE PRODUCT CUSTOMER RATINGS */
+
+.fa-star {
+    color: #69AFAF;
+}
+
+.customer-ratings .card-text {
+    font-family: RalewaySemiBold, sans-serif;
+}
+
+
+.customer-ratings .col-12 {
+    margin: 5% 0 5% 0;
+}
+
+.customer-ratings .card-body p:last-child {
+    margin-top: 6%;
 }

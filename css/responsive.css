@@ -296,6 +296,13 @@
     }
 }
 
+@media screen and (max-width: 1500px) {
+    .customer-ratings .card-text {
+        font-size: 1.2vw;
+    }
+
+}
+
 @media screen and (max-width: 1009px) {
     .hidden-sm {
         display: none;
@@ -317,6 +324,20 @@
     .hidden-md-lg p {
         font-family: RalewayReg, sans-serif;
     }
+
+}
+
+@media screen and (max-width: 992px) {
+    .customer-ratings .card-text {
+        font-size: 3vw;
+    }
+
+    .customer-ratings .card {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px;
+        margin-bottom: 5%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -328,3 +349,5 @@
         font-size: 3vw;
     }
 }
+
+
