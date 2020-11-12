@@ -21,6 +21,10 @@
     src: url("fonts/Raleway-SemiBold.ttf");
 }
 
+h2, h3, h4, h5 {
+    font-family: PrataReg, serif;
+}
+
 
 /** Header HP **/
 
@@ -181,7 +185,7 @@ a {
 
 /* JUMBOTRON HP*/
 
-.jumbotron {
+.hp-jumbo .jumbotron {
     padding-top: 0;
     background-color: #FAF5F1;
     padding-bottom: 0;
@@ -370,7 +374,7 @@ button {
     text-align: center;
     padding: 3% 18% 3% 1%;
     color: white;
-    font-family: RalewayReg, sans-serif;
+    font-family: PrataReg, serif;
 }
 
 .slogan-planete {
@@ -393,6 +397,10 @@ button {
     padding: 0;
 }
 
+.show-on-hover {
+    display: none;
+}
+
 .card-img-overlay p {
     text-transform: uppercase;
     color: #69AFAF;;
@@ -403,7 +411,7 @@ button {
 }
 
 .row.product-cards .col-12, .row.product-cards .col-sm-12.col-md-12.col-lg-12.col-xl-3{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .card-title {
@@ -411,7 +419,6 @@ button {
 }
 
 .row.product-cards .col-12 h3, .row.personalization-steps .col-12 h3, .customer-ratings .col-12 h3 {
-    font-family: RalewaySemiBold, sans-serif;
     font-size: 2rem;
 }
 
@@ -420,6 +427,14 @@ button {
     margin-bottom: 2%;
     border-color: #0F0F0F;
     width: 7%;
+}
+
+#product-item-card-display {
+    background: linear-gradient(to bottom, #FFFF 50%, rgba(103, 174, 174, 0.5) 50%);
+}
+
+#product-item-card-display .product-cards {
+    padding-bottom: 60px;
 }
 
 /* HOMEPAGE PRODUCT PERSONALIZATION HOW TO */
@@ -510,7 +525,7 @@ button {
 
 
 .customer-ratings .col-12 {
-    margin: 5% 0 5% 0;
+    margin: 3% 0 3% 0;
 }
 
 .customer-ratings .card-body p:last-child {
@@ -540,7 +555,6 @@ button {
 
 footer, footer .card {
     background-color: #FAF5F1;
-    font-family: RalewayBold, sans-serif;
 }
 
 footer .card-img-top {
@@ -593,4 +607,65 @@ footer .row .row .col-md-6:last-child ul, footer .row .row .col-12:last-child ul
 
 footer .card {
     text-align: center;
+}
+
+
+/* PRODUCT PAGE */
+
+    /* JUMBOTRON */
+
+.product-page-jumbo .jumbotron {
+    background-color: #FFFFFF;
+    font-family: RalewayReg, sans-serif;
+}
+
+.product-page-jumbo img {
+    width: 100%;
+}
+
+.product-page-jumbo .main-picture-wrapper {
+    margin-bottom: 2%;
+}
+
+.product-page-jumbo .main-picture-wrapper img {
+    background-color: #FAF5F1;
+}
+
+.product-page-jumbo .picture-container {
+    margin-bottom: 5%;
+}
+
+.product-page-jumbo h2 {
+    font-family: PrataReg, serif;
+}
+
+.product-page-jumbo .secondary-picture-wrapper {
+    margin-bottom: 2%;
+}
+
+.product-page-jumbo .specs {
+    font-family: RalewaySemiBold, sans-serif;
+}
+
+.product-page-jumbo .price, .product-page-jumbo .offer {
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 2px 20px;
+    background:transparent linear-gradient(180deg, rgba(103, 174, 174, 0.7) 0%, rgba(103, 174, 174, 0.6) 100%) 0 0 no-repeat padding-box;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 0.2rem;
+}
+
+.product-page-jumbo .offer span {
+    font-size: 0.9rem;
+}
+
+button:hover {
+    background:transparent linear-gradient(180deg, rgba(103, 174, 174, 0.7) 0%, rgba(103, 174, 174, 0.6) 100%) 0 0 no-repeat padding-box;
+    color: #FFFFFF;
+}
+
+.product-personlization-howto.product-page {
+    margin-top: 0;
 }
