@@ -181,7 +181,7 @@ a {
 
 /* JUMBOTRON HP*/
 
-.jumbotron {
+.hp-jumbo .jumbotron {
     padding-top: 0;
     background-color: #FAF5F1;
     padding-bottom: 0;
@@ -593,4 +593,13 @@ footer .row .row .col-md-6:last-child ul, footer .row .row .col-12:last-child ul
 
 footer .card {
     text-align: center;
+}
+
+
+/* PRODUCT PAGE */
+
+    /* JUMBOTRON */
+
+.product-page-jumbo .jumbotron {
+    background-color: #FFFFFF;
 }
