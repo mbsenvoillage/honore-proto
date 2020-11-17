@@ -55,7 +55,7 @@
                         <div class="photo-grid-photo">
 
                         </div>
-                        <div class="photo-grid-photo">
+                        <div class="photo-grid-photo" id="photo-test">
 
                         </div>
 
@@ -72,7 +72,8 @@
                 <button>sauvegarder</button>
             </div>
             <div class="button-wrapper">
-                <button>uploader</button>
+                <button id="img-upload-btn">uploader</button>
+                <input type="file" accept="image/jpeg, image/png" name="uploadedimage" id="img-upload-input" style="display: none" onchange="getURL(this)">
             </div>
         </div>
 

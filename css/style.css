@@ -750,6 +750,7 @@ button:hover {
     border: black 1px solid;
     position: absolute;
     height: 100vh;
+    overflow: auto;
 }
 
 .page-perso-espace-travail {
@@ -797,9 +798,10 @@ button:hover {
 
 .page-perso-barre-latérale-buttons-container {
     position: fixed;
-    bottom: 10px;
+    bottom: 1px;
     display: flex;
     height: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 .page-perso-barre-latérale-buttons-container button {

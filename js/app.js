@@ -4,6 +4,11 @@ let closeBtn = $('#close');
 let cardImageOverlay = [[$('.card-img-overlay.one'), $('.show-on-hover.item-1')], [$('.card-img-overlay.two'), $('.show-on-hover.item-2')],
     [$('.card-img-overlay.three'), $('.show-on-hover.item-3')]];
 const x = window.matchMedia("(min-width: 1200px)");
+let imgUploadBtn = document.getElementById('img-upload-btn');
+let imgUploadInput = document.getElementById('img-upload-input');
+let photo = document.getElementById('photo-test');
+photo = $("#photo-test");
+
 
 $(document).ready(function() {
 
@@ -13,9 +18,33 @@ $(document).ready(function() {
 
     x.addEventListener('change', myFunction);
 
+    imgUploadBtn.addEventListener('click', btnclick);
 
-})
 
+
+});
+
+function btnclick() {
+    if(imgUploadInput) {
+        imgUploadInput.click();
+    }
+}
+
+function getURL(input) {
+    if(input.files && input.files[0]) {
+        let fReader = new FileReader();
+
+        fReader.onload = function(e) {
+            //photo.setAttribute('src', e.target.result);
+            photo.css({'background-image' : "url(" + e.target.result +")", "background-size" : "cover"});
+        };
+
+        fReader.readAsDataURL(input.files[0]);
+    }
+
+
+
+}
 
 
 function myFunction(x) {
