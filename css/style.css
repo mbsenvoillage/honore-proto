@@ -669,3 +669,171 @@ button:hover {
 .product-personlization-howto.product-page {
     margin-top: 0;
 }
+
+
+/* PAGE PERSONNALISATION PRODUIT */
+
+.navbar-toggle {
+    position: relative;
+    display: block;
+}
+
+.header-icon img {
+    width: 50px;
+}
+
+.menu {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    flex-direction: column;
+    top: 130px;
+    z-index: 3;
+    justify-content: space-evenly;
+    transition: left .5s cubic-bezier(0,1,.5,1);
+    left: -100%;
+}
+
+.page-perso header {
+    position: static;
+}
+
+.page-perso .nav-link {
+    text-align: center;
+}
+
+.page-perso .pull-sidebar {
+    left: 0;
+
+}
+
+.page-perso .pull-bottom-navbar {
+    left: 0;
+}
+
+.page-perso .bottom-navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.page-perso .navbar-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: block;
+}
+
+.page-perso .navbar-toggle:focus {
+    outline: none;
+}
+
+.page-perso .show, .visible {
+    display: block;
+}
+
+.page-perso .hide, .hidden {
+    display: none;
+}
+
+.page-perso-zone-edition-main-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.page-perso-barre-latérale {
+    width: 380px;
+    border: black 1px solid;
+    position: absolute;
+    height: 100vh;
+}
+
+.page-perso-espace-travail {
+    border: black 1px solid;
+    width: calc(100% - 380px);
+    position: relative;
+    margin-left: 380px;
+    height: 100%;
+    background-color: rgba(206, 231, 231, 0.2);
+    overflow: auto;
+}
+
+.page-perso-barre-latérale-photo-container-theme-selection {
+    flex-direction: column;
+}
+
+.page-perso-barre-latérale-theme-selection-title, .page-perso-barre-latérale-theme-selection-photo-container, .page-perso-barre-latérale-photo-container-theme-selection, .page-perso-barre-latérale-photo-selection-title {
+    display: flex;
+}
+
+.page-perso-barre-latérale-theme-selection-photo-container {
+    justify-content: space-evenly;
+}
+
+.theme-photo-medaillon {
+    width: 100px;
+    height: 100px;
+    background-color: #B3D6D6;
+    border-radius: 60px;
+}
+
+.theme-name-txt {
+    text-align: center;
+}
+
+.theme-2, .theme-1 {
+    padding: 10px;
+}
+
+.page-perso-barre-latérale-photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-perso-barre-latérale-buttons-container {
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+    height: 100px;
+}
+
+.page-perso-barre-latérale-buttons-container button {
+    letter-spacing: initial;
+    padding: 2px;
+}
+.page-perso-barre-latérale-buttons-container .button-wrapper {
+    padding: 8px;
+}
+
+.photo-grid-photo {
+    width: 100px;
+    height: 100px;
+    background-color: #B0D1CE;
+    margin-bottom: 10px;
+}
+
+.photo-grid-photo-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 100px;
+    justify-content: space-between;
+}
+
+.page-perso-barre-latérale-photo-container-photo-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-perso-barre-latérale-photo-selection-photo-grid-container {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
