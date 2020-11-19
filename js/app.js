@@ -18,9 +18,10 @@ $(document).ready(function() {
 
     x.addEventListener('change', myFunction);
 
-    imgUploadBtn.addEventListener('click', btnclick);
+    //imgUploadBtn.addEventListener('click', btnclick);
 
 
+    imgUploadBtn.addEventListener('click', () => alert("got clicked"));
 
 });
 
@@ -72,6 +73,3 @@ let toggleMenu = function() {
 
     })
 }
-
-
-
